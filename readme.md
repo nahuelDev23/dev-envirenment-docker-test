@@ -2,7 +2,7 @@
 
 `docker ps`
 
-`docker exec -it gotest-myapp-1`
+`docker exec -it gotest-myapp-1 bash`
 
 
 `cd src/`
