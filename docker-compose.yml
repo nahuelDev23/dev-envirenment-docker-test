@@ -1,0 +1,6 @@
+services:
+  myapp:
+    image: golang
+    volumes:
+      - .:/go/src
+    command: ["tail","-f","/dev/null"]
